@@ -1,0 +1,131 @@
+{
+	"cabecera":
+	[
+		{
+			"id":1,
+			"nombre":"Jugos Naturales",
+			"productos":
+			[
+				{
+					"codigo":1564,
+					"descripcion":"Jugo de frutilla 500ml"
+				},
+				{	"codigo":1565,
+					"descripcion":"Jugo de naranja 200ml"
+				},
+				{	"codigo":1568,
+					"descripcion":"Jugo de piña 250ml"
+				}
+			]
+		},
+		{
+			"id":2,
+			"nombre":"Menu",
+			"productos":
+			[
+				{
+					"codigo":1661,
+					"descripcion":"Soyo con tortilla"
+				},
+				{	"codigo":1674,
+					"descripcion":"Muslo al horno"
+				},
+				{	"codigo":1402,
+					"descripcion":"Tallarin de carne"
+				}
+			]
+		},
+		{
+			"id":3,
+			"nombre":"Parrilla",
+			"productos":
+			[
+				{
+					"codigo":2017,
+					"descripcion":"Chorizo de Viena"
+				},
+				{	"codigo":2015,
+					"descripcion":"Vacio Vacuno"
+				},
+				{	"codigo":2301,
+					"descripcion":"Chinchulin"
+				}
+			]
+		}
+	],
+	"pedidos": 
+	[
+		{
+			"id":1,
+			"mesa":2,
+			"cliente":
+			{
+				"razon_social": "Clementina Gallego",
+				"telefono":"0965231478",
+				"ruc":"5236875-2",
+				"direccion":"Arroyos y esteros"
+			},
+			"usuario":
+			{
+				"nombres":"Hector Amilcar",
+				"apellidos": "Rios",
+				"ci":"2369214"
+			},
+			"productos": 
+			[
+				{
+					"codigo":2017,
+					"descripcion":"Chorizo de Viena",
+					"cantidad": 5
+				},
+				{
+					"codigo":2301,
+					"descripcion":"Chinchulin",
+					"cantidad": 2
+				},
+				{	"codigo":1402,
+					"descripcion":"Tallarin de carne",
+					"cantidad": 1
+				},
+				{
+					"codigo":1564,
+					"descripcion":"Jugo de frutilla 500ml",
+					"cantidad": 3
+				}
+			]
+		},
+		{
+			"id":2,
+			"mesa":4,
+			"cliente":
+			{
+				"razon_social": "Amancio Morinigo",
+				"telefono":"0984253652",
+				"ruc":"8976875-6",
+				"direccion":"Asuncion"
+			},
+			"usuario":
+			{
+				"nombres":"Emilia",
+				"apellidos": "Gimenez Barrios",
+				"ci":"1369217"
+			},
+			"productos": 
+			[
+				{
+					"codigo":2015,
+					"descripcion":"Vacio Vacuno",
+					"cantidad": 2
+				},
+				{
+					"codigo":1568,
+					"descripcion":"Jugo de piña 250ml",
+					"cantidad": 1
+				}
+			]
+		}
+	]		
+				
+}
+
+
