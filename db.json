@@ -1,160 +1,166 @@
 {
-	"cabecera":{
-		"fechaDocumento":"2019-06-26",
-		"bloqueado":false,
-		"estado":"CERRADO",
-		"direccion":{
-			"idDireccion":1,
-			"direccion":"",
-			"codDireccion":1
-		},
-		"id_pedido":3,
-		"cliente":{
-			"idCliente":1,
-			"empresa":false,
-			"bloquearPrecios":false,
-			"clienteCredito":true,
-			"permiteDescuentos":true,
-			"grupoCliente":null,
-			"datos":{
-				"idPersona":1,
-				"nombre":"Oscar Caballero",
-				"ruc":"",
-				"ci":"2603574",
-				"documentos":{
-					"nombreArchivo":"1.jpg",
-					"tamArchivo":1933572,
-					"mimeType":"image/jpeg",
-					"pathArchivo":"/CERP/prospectoClienteImg/1.jpg",
-					"descripcion":null,
-					"fecha":"2018-10-11",
-					"usuario":"admin",
-					"ipEquipo":"192.168.100.64"
-				}
-			},
-			"rubro":null,
-			"plazoVenta":{
-			"descripcion":"CONTADO",
-			"cantDias":0},
-			"tipoCliente":{
-				"descripcion":"CLIENTE NORMAL"
+"cabecera":{
+	"fechaDocumento":"2019-06-26",
+	"bloqueado":false,
+	"estado":"CERRADO",
+	"direccion":{
+		"idDireccion":1,
+		"direccion":"",
+		"codDireccion":1
+	},
+	"id_pedido":3,
+	"cliente":{
+		"idCliente":1,
+		"empresa":false,
+		"bloquearPrecios":false,
+		"clienteCredito":true,
+		"permiteDescuentos":true,
+		"grupoCliente":null,
+		"datos":{
+			"idPersona":1,
+			"nombre":"Oscar Caballero",
+			"ruc":"",
+			"ci":"2603574",
+			"documentos":{
+				"nombreArchivo":"1.jpg",
+				"tamArchivo":1933572,
+				"mimeType":"image/jpeg",
+				"pathArchivo":"/CERP/prospectoClienteImg/1.jpg",
+				"descripcion":null,
+				"fecha":"2018-10-11",
+				"usuario":"admin",
+				"ipEquipo":"192.168.100.64"
 			}
 		},
-		"local":{
-			"codLocales":1,
-			"descripcion":"CASA MATRIZ",
-			"serieLocalComprobante":"001"},
-		"tipo_pedido":"V",
-		"total_pedido":3100000.0,
-		"total_gravadas":2818181.8182,
-		"total_impuestos":281818.1818,
-		"nota":"N",
-		"vendedor":{
-			"idVendedor":1,
-			"codVendedor":"",
-			"codComercio":null,
-			"datos":{
-				"idPersona":1,
-				"nombre":"Oscar Caballero",
-				"ruc":"",
-				"ci":"2603574",
-				"documentos":{
-					"nombreArchivo":"1.jpg",
-					"tamArchivo":1933572,
-					"mimeType":"image/jpeg",
-					"pathArchivo":"/CERP/prospectoClienteImg/1.jpg",
-					"descripcion":null,
-					"fecha":"2018-10-11",
-					"usuario":"admin",
-					"ipEquipo":"192.168.100.64"
-				}
-			}
-		},
-		"nro_orden":1,
-		"fecha_pedido":1561562905778,
-		"talonario":{
-			"idTalonario":15,
-			"descripcion":"Pedidos Prueba",
-			"codigoDoc":"PE-01",
-			"serieExpedicionComprobante":"001",
-			"ventaReparto":false
+		"rubro":null,
+		"plazoVenta":{
+		"descripcion":"CONTADO",
+		"cantDias":0},
+		"tipoCliente":{
+			"descripcion":"CLIENTE NORMAL"
 		}
 	},
-	"detalle":[
-		{
-			"idPedidoDet":1,
-			"productos":{
-				"idProducto":4,
-				"codProducto":"004",
-				"descripcion":"Jugo de limon 500ml",
-				"codigoBarra":null,
-				"nroSerie":null,
-				"totalKg":null,
-				"imagenPath":null,
-				"puedeVenderse":false,
-				"puedeComprarse":false,
-				"puedeProducirse":false,
-				"manejaExistencia":false,
-				"esServicio":false,
-				"esMateriaPrima":false,
-				"omitirControlStockProduccion":false,
-				"cantDecimales":null,
-				"generaTransferenciaViaje":null
-			},
-			"cantidad":1.0,
-			"precioUnitario":100000.0,
-			"montoImpuesto":90909.0909,
-			"montoTotal":100000.0
-		},
-		{
-			"idPedidoDet":2,
-			"productos":{
-				"idProducto":2,
-				"codProducto":"002",
-				"descripcion":"Picada de Pollo",
-				"codigoBarra":"",
-				"nroSerie":null,
-				"totalKg":null,
-				"imagenPath":null,
-				"puedeVenderse":false,
-				"puedeComprarse":false,
-				"puedeProducirse":false,
-				"manejaExistencia":false,
-				"esServicio":false,
-				"esMateriaPrima":false,
-				"omitirControlStockProduccion":false,
-				"cantDecimales":null,
-				"generaTransferenciaViaje":null
-			},
-			"cantidad":10.0,
-			"precioUnitario":300000.0,
-			"montoImpuesto":2727272.7273,
-			"montoTotal":3000000.0
-		},
-		{
-			"idPedidoDet":3,
-			"productos":{
-				"idProducto":1,
-				"codProducto":"001",
-				"descripcion":"Salsa Bolognesa",
-				"codigoBarra":null,
-				"nroSerie":null,
-				"totalKg":null,
-				"imagenPath":null,
-				"puedeVenderse":false,
-				"puedeComprarse":false,
-				"puedeProducirse":false,
-				"manejaExistencia":false,
-				"esServicio":false,
-				"esMateriaPrima":false,
-				"omitirControlStockProduccion":false,
-				"cantDecimales":null,
-				"generaTransferenciaViaje":null
-			},
-			"cantidad":5.0,
-			"precioUnitario":null,
-			"montoImpuesto":0.0,
-			"montoTotal":0.0
+	"local":{
+		"codLocales":1,
+		"descripcion":"CASA MATRIZ",
+		"serieLocalComprobante":"001"},
+	"tipo_pedido":"V",
+	"total_pedido":3100000.0,
+	"total_gravadas":2818181.8182,
+	"total_impuestos":281818.1818,
+	"nota":"N",
+	"vendedor":{
+		"idVendedor":1,
+		"codVendedor":"",
+		"codComercio":null,
+		"datos":{
+			"idPersona":1,
+			"nombre":"Oscar Caballero",
+			"ruc":"",
+			"ci":"2603574",
+			"documentos":{
+				"nombreArchivo":"1.jpg",
+				"tamArchivo":1933572,
+				"mimeType":"image/jpeg",
+				"pathArchivo":"/CERP/prospectoClienteImg/1.jpg",
+				"descripcion":null,
+				"fecha":"2018-10-11",
+				"usuario":"admin",
+				"ipEquipo":"192.168.100.64"
+			}
 		}
+	},
+	"nro_orden":1,
+	"fecha_pedido":1561562905778,
+	"talonario":{
+		"idTalonario":15,
+		"descripcion":"Pedidos Prueba",
+		"codigoDoc":"PE-01",
+		"serieExpedicionComprobante":"001",
+		"ventaReparto":false
+	}
+},
+"detalle":[
+	{
+		"idPedidoDet":1,
+		"productos":{
+			"idProducto":4,
+			"codProducto":"004",
+			"descripcion":"Jugo de limon 500ml",
+			"codigoBarra":null,
+			"nroSerie":null,
+			"totalKg":null,
+			"imagenPath":null,
+			"puedeVenderse":false,
+			"puedeComprarse":false,
+			"puedeProducirse":false,
+			"manejaExistencia":false,
+			"esServicio":false,
+			"esMateriaPrima":false,
+			"omitirControlStockProduccion":false,
+			"cantDecimales":null,
+			"generaTransferenciaViaje":null
+		},
+		"cantidad":1.0,
+		"precioUnitario":100000.0,
+		"montoImpuesto":90909.0909,
+		"montoTotal":100000.0
+	},
+	{
+		"idPedidoDet":2,
+		"productos":{
+			"idProducto":2,
+			"codProducto":"002",
+			"descripcion":"Picada de Pollo",
+			"codigoBarra":"",
+			"nroSerie":null,
+			"totalKg":null,
+			"imagenPath":null,
+			"puedeVenderse":false,
+			"puedeComprarse":false,
+			"puedeProducirse":false,
+			"manejaExistencia":false,
+			"esServicio":false,
+			"esMateriaPrima":false,
+			"omitirControlStockProduccion":false,
+			"cantDecimales":null,
+			"generaTransferenciaViaje":null
+		},
+		"cantidad":10.0,
+		"precioUnitario":300000.0,
+		"montoImpuesto":2727272.7273,
+		"montoTotal":3000000.0
+	},
+	{
+		"idPedidoDet":3,
+		"productos":{
+			"idProducto":1,
+			"codProducto":"001",
+			"descripcion":"Salsa Bolognesa",
+			"codigoBarra":null,
+			"nroSerie":null,
+			"totalKg":null,
+			"imagenPath":null,
+			"puedeVenderse":false,
+			"puedeComprarse":false,
+			"puedeProducirse":false,
+			"manejaExistencia":false,
+			"esServicio":false,
+			"esMateriaPrima":false,
+			"omitirControlStockProduccion":false,
+			"cantDecimales":null,
+			"generaTransferenciaViaje":null
+		},
+		"cantidad":5.0,
+		"precioUnitario":null,
+		"montoImpuesto":0.0,
+		"montoTotal":0.0
+	}
 	],
-	"productos":[{"idProducto": 1,"codProducto":"001","descripcion":"Salsa Bolognesa","puedeVenderse":false,"puedeComprarse":false,"puedeProducirse":true},{"idProducto": 2,"codProducto":"002","descripcion":"Picada de Pollo","puedeVenderse":false,"puedeComprarse":false,"puedeProducirse":true},{"idProducto": 3,"codProducto":"003","descripcion":"Jugo de frutilla","puedeVenderse":false,"puedeComprarse":false,"puedeProducirse":true},{"idProducto": 4,"codProducto":"004","descripcion":"Jugo de limon 500ml","puedeVenderse":false,"puedeComprarse":false,"puedeProducirse":true}]}
+	"productos":[
+	{"idProducto": 1,"codProducto":"001","descripcion":"Salsa Bolognesa","puedeVenderse":false,"puedeComprarse":false,"puedeProducirse":true},
+	{"idProducto": 2,"codProducto":"002","descripcion":"Picada de Pollo","puedeVenderse":false,"puedeComprarse":false,"puedeProducirse":true},
+	{"idProducto": 3,"codProducto":"003","descripcion":"Jugo de frutilla","puedeVenderse":false,"puedeComprarse":false,"puedeProducirse":true},
+	{"idProducto": 4,"codProducto":"004","descripcion":"Jugo de limon 500ml","puedeVenderse":false,"puedeComprarse":false,"puedeProducirse":true}]
+
+}
