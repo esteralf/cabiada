@@ -1,5 +1,5 @@
 {
-"cabecera":{
+"cabecera":[{
 	"fechaDocumento":"2019-06-26",
 	"bloqueado":false,
 	"estado":"CERRADO",
@@ -80,7 +80,7 @@
 		"serieExpedicionComprobante":"001",
 		"ventaReparto":false
 	}
-},
+}],
 "detalle":[
 	{
 		"idPedidoDet":1,
