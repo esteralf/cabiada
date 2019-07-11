@@ -157,4 +157,4 @@
 			"montoTotal":0.0
 		}
 	],
-	"productos":[{"idProducto": 1,"codProducto":"001","descripcion":"Salsa Bolognesa","puedeVenderse":false,"puedeComprarse":false,"puedeProducirse":true},{"idProducto": 2,"codProducto":"002","descripcion":"Picada de Pollo","puedeVenderse":false,"puedeComprarse":false,"puedeProducirse":true},{"idProducto": 3,"codProducto":"003","descripcion":"Jugo de frutilla","puedeVenderse":false,"puedeComprarse":false,"puedeProducirse":true},{"idProducto": 4,"codProducto":"004","descripcion":"Jugo de limon 500ml","puedeVenderse":false,"puedeComprarse":false,"puedeProducirse":true}]
+	"productos":[{"idProducto": 1,"codProducto":"001","descripcion":"Salsa Bolognesa","puedeVenderse":false,"puedeComprarse":false,"puedeProducirse":true},{"idProducto": 2,"codProducto":"002","descripcion":"Picada de Pollo","puedeVenderse":false,"puedeComprarse":false,"puedeProducirse":true},{"idProducto": 3,"codProducto":"003","descripcion":"Jugo de frutilla","puedeVenderse":false,"puedeComprarse":false,"puedeProducirse":true},{"idProducto": 4,"codProducto":"004","descripcion":"Jugo de limon 500ml","puedeVenderse":false,"puedeComprarse":false,"puedeProducirse":true}]}
