@@ -3,6 +3,7 @@
 	"fechaDocumento":"2019-06-26",
 	"bloqueado":false,
 	"estado":"CERRADO",
+	"mesa":5,
 	"direccion":{
 		"idDireccion":1,
 		"direccion":"",
