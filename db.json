@@ -80,6 +80,88 @@
 		"serieExpedicionComprobante":"001",
 		"ventaReparto":false
 	}
+},
+{
+	"fechaDocumento":"2019-07-05",
+	"bloqueado":false,
+	"estado":"PENDIENTE",
+	"mesa":4,
+	"direccion":{
+		"idDireccion":1,
+		"direccion":"",
+		"codDireccion":1
+	},
+	"id_pedido":5,
+	"cliente":{
+		"idCliente":1,
+		"empresa":false,
+		"bloquearPrecios":false,
+		"clienteCredito":true,
+		"permiteDescuentos":true,
+		"grupoCliente":null,
+		"datos":{
+			"idPersona":1,
+			"nombre":"Oscar Caballero",
+			"ruc":"",
+			"ci":"2603574",
+			"documentos":{
+				"nombreArchivo":"1.jpg",
+				"tamArchivo":1933572,
+				"mimeType":"image/jpeg",
+				"pathArchivo":"/CERP/prospectoClienteImg/1.jpg",
+				"descripcion":null,
+				"fecha":"2018-10-11",
+				"usuario":"admin",
+				"ipEquipo":"192.168.100.64"
+			}
+		},
+		"rubro":null,
+		"plazoVenta":{
+		"descripcion":"CONTADO",
+		"cantDias":0},
+		"tipoCliente":{
+			"descripcion":"CLIENTE NORMAL"
+		}
+	},
+	"local":{
+		"codLocales":1,
+		"descripcion":"CASA MATRIZ",
+		"serieLocalComprobante":"001"},
+	"tipo_pedido":"V",
+	"total_pedido":3100000.0,
+	"total_gravadas":2818181.8182,
+	"total_impuestos":281818.1818,
+	"nota":"N",
+	"vendedor":{
+		"idVendedor":1,
+		"codVendedor":"",
+		"codComercio":null,
+		"datos":{
+			"idPersona":1,
+			"nombre":"Oscar Caballero",
+			"ruc":"",
+			"ci":"2603574",
+			"documentos":{
+				"nombreArchivo":"1.jpg",
+				"tamArchivo":1933572,
+				"mimeType":"image/jpeg",
+				"pathArchivo":"/CERP/prospectoClienteImg/1.jpg",
+				"descripcion":null,
+				"fecha":"2018-10-11",
+				"usuario":"admin",
+				"ipEquipo":"192.168.100.64"
+			}
+		}
+	},
+	"nro_orden":3,
+	"fecha_pedido":1561562905778,
+	"talonario":{
+		"idTalonario":15,
+		"descripcion":"Pedidos Prueba",
+		"codigoDoc":"PE-01",
+		"serieExpedicionComprobante":"001",
+		"ventaReparto":false
+	}
 }],
 "detalle":[
 	{
